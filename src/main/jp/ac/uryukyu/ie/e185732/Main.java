@@ -16,6 +16,7 @@ public class Main {
             System.out.printf("%dターン目開始！\n", turn);
             hero.attack(enemy);
             enemy.attack(hero);
+            hero.getHitPoint();
         }
         System.out.println("戦闘終了");
     }
